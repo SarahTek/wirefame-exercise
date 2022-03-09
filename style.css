@@ -10,7 +10,7 @@ header nav{
  
 }
 main{
-  background-color: slategray;
+  /* background-color: slategray; */
   width: 960px;
   margin: 30px auto auto auto;
   display: flex;
@@ -31,4 +31,14 @@ footer{
 article section{
   height: 320px;
   overflow: auto;
+}
+article a{
+  border:1px solid black;
+  border-radius: 10px;
+  padding: 5px 40px 5px 40px;
+  background-color: #dddddd;
+  
+}
+a:hover{
+color: black;
 }
