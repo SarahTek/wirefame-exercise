@@ -2,17 +2,35 @@
   box-sizing: border-box;
 }
 header{
-  background-color: darkgray;
+  /* background-color: darkgray; */
 }
 header nav{
   width: 960px;
   margin: .5rem auto;
- 
-}
+ }
+ nav ul{
+  width: 740px;
+    display: inline-flex;  
+    text-decoration: none; 
+   
+ }
+ nav ul li{
+  padding-right: 100px;
+  list-style-type: none;
+   float: left;
+   display: block;
+   
+   }
+ li a{
+   text-decoration: none;
+   color: black;
+   
+ }
+
 main{
   /* background-color: slategray; */
   width: 960px;
-  margin: 30px auto auto auto;
+  margin: 20px auto auto auto;
   display: flex;
   flex-wrap: wrap;
   justify-content: space-between;
@@ -37,6 +55,8 @@ article a{
   border-radius: 10px;
   padding: 5px 40px 5px 40px;
   background-color: #dddddd;
+  text-decoration: none;
+  color: black;
   
 }
 a:hover{
